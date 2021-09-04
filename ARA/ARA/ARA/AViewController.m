@@ -7,8 +7,8 @@
 //
 
 #import "AViewController.h"
-#import "BViewController.h"
-#import <HandyFrame/UIView+LayoutMethods.h>
+//#import "BViewController.h"
+//#import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface AViewController ()
 
@@ -31,15 +31,15 @@
 {
     [super viewWillLayoutSubviews];
 
-    [self.pushBViewControllerButton sizeToFit];
-    [self.pushBViewControllerButton centerEqualToView:self.view];
+//    [self.pushBViewControllerButton sizeToFit];
+//    [self.pushBViewControllerButton centerEqualToView:self.view];
 }
 
 #pragma mark - event response
 - (void)didTappedPushBViewControllerButton:(UIButton *)button
 {
-    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
-    [self.navigationController pushViewController:viewController animated:YES];
+//    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
+//    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 #pragma mark - getters and setters
