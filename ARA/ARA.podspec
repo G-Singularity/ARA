@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ARA"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "Test of ARA."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   #spec.description  = <<-DESC
   #                 DESC
 
-  spec.homepage     = "http://github.com/G-Singularity/ARA"
+  spec.homepage     = "https://github.com/G-Singularity/ARA"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/G-Singularity/ARA.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/G-Singularity/ARA.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
