@@ -107,7 +107,7 @@
 		C086C68C26DEE08800B0E2BE /* ARA */ = {
 			isa = PBXGroup;
 			children = (
-				C086C6C426DEE32F00B0E2BE /* ARALibs */,
+				C086C6C426DEE32F00B0E2BE /* ARA */,
 				C086C68D26DEE08800B0E2BE /* AppDelegate.h */,
 				C086C68E26DEE08800B0E2BE /* AppDelegate.m */,
 				C086C69026DEE08800B0E2BE /* SceneDelegate.h */,
@@ -141,13 +141,13 @@
 			path = ARAUITests;
 			sourceTree = "<group>";
 		};
-		C086C6C426DEE32F00B0E2BE /* ARALibs */ = {
+		C086C6C426DEE32F00B0E2BE /* ARA */ = {
 			isa = PBXGroup;
 			children = (
 				C086C6C626DEE34B00B0E2BE /* AViewController.h */,
 				C086C6C526DEE34B00B0E2BE /* AViewController.m */,
 			);
-			path = ARALibs;
+			path = ARA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
