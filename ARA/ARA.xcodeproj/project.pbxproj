@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41D783236912EE0F477B203D /* Pods_ARA_ARAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E3A557FF4B19D764F35FE6 /* Pods_ARA_ARAUITests.framework */; };
 		C086C68F26DEE08800B0E2BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C68E26DEE08800B0E2BE /* AppDelegate.m */; };
 		C086C69226DEE08800B0E2BE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C69126DEE08800B0E2BE /* SceneDelegate.m */; };
 		C086C69526DEE08800B0E2BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C69426DEE08800B0E2BE /* ViewController.m */; };
@@ -17,6 +18,9 @@
 		C086C6AA26DEE08E00B0E2BE /* ARATests.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C6A926DEE08E00B0E2BE /* ARATests.m */; };
 		C086C6B526DEE08E00B0E2BE /* ARAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C6B426DEE08E00B0E2BE /* ARAUITests.m */; };
 		C086C6C726DEE34B00B0E2BE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C086C6C526DEE34B00B0E2BE /* AViewController.m */; };
+		C0F4144026E47F23005D697D /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4143F26E47F23005D697D /* Target_A.m */; };
+		DFA5C9EEFAB780DA0B8AE006 /* Pods_ARA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ED458F2851A485B8533D76 /* Pods_ARA.framework */; };
+		F85C0134EBA0A22AF2123476 /* Pods_ARATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD1C4B06C451ECCAF87E6B7 /* Pods_ARATests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0036DBA506E9A2DBBBF8B2BF /* Pods-ARA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARA.debug.xcconfig"; path = "Target Support Files/Pods-ARA/Pods-ARA.debug.xcconfig"; sourceTree = "<group>"; };
+		27A0C3D6C85D5FDA2DD83564 /* Pods-ARA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARA.release.xcconfig"; path = "Target Support Files/Pods-ARA/Pods-ARA.release.xcconfig"; sourceTree = "<group>"; };
+		3090BED5BFAFE52937188391 /* Pods-ARA-ARAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARA-ARAUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARA-ARAUITests/Pods-ARA-ARAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38FB64FA3A7B4B350A760FD8 /* Pods-ARATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARATests.release.xcconfig"; path = "Target Support Files/Pods-ARATests/Pods-ARATests.release.xcconfig"; sourceTree = "<group>"; };
+		42E3A557FF4B19D764F35FE6 /* Pods_ARA_ARAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARA_ARAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD1C4B06C451ECCAF87E6B7 /* Pods_ARATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086C68A26DEE08800B0E2BE /* ARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086C68D26DEE08800B0E2BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C086C68E26DEE08800B0E2BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 		C086C6B626DEE08E00B0E2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C086C6C526DEE34B00B0E2BE /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		C086C6C626DEE34B00B0E2BE /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		C0D4BCE577153ECB0AD3900D /* Pods-ARATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARATests.debug.xcconfig"; path = "Target Support Files/Pods-ARATests/Pods-ARATests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F4143E26E47F23005D697D /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		C0F4143F26E47F23005D697D /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		DDA48DBD927D737A00F51E83 /* Pods-ARA-ARAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARA-ARAUITests.release.xcconfig"; path = "Target Support Files/Pods-ARA-ARAUITests/Pods-ARA-ARAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0ED458F2851A485B8533D76 /* Pods_ARA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA5C9EEFAB780DA0B8AE006 /* Pods_ARA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85C0134EBA0A22AF2123476 /* Pods_ARATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D783236912EE0F477B203D /* Pods_ARA_ARAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8EC6D3567C399072731225 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0036DBA506E9A2DBBBF8B2BF /* Pods-ARA.debug.xcconfig */,
+				27A0C3D6C85D5FDA2DD83564 /* Pods-ARA.release.xcconfig */,
+				3090BED5BFAFE52937188391 /* Pods-ARA-ARAUITests.debug.xcconfig */,
+				DDA48DBD927D737A00F51E83 /* Pods-ARA-ARAUITests.release.xcconfig */,
+				C0D4BCE577153ECB0AD3900D /* Pods-ARATests.debug.xcconfig */,
+				38FB64FA3A7B4B350A760FD8 /* Pods-ARATests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75C62D66D958896A4D5657A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0ED458F2851A485B8533D76 /* Pods_ARA.framework */,
+				42E3A557FF4B19D764F35FE6 /* Pods_ARA_ARAUITests.framework */,
+				4FD1C4B06C451ECCAF87E6B7 /* Pods_ARATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C086C68126DEE08800B0E2BE = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,8 @@
 				C086C6A826DEE08E00B0E2BE /* ARATests */,
 				C086C6B326DEE08E00B0E2BE /* ARAUITests */,
 				C086C68B26DEE08800B0E2BE /* Products */,
+				0C8EC6D3567C399072731225 /* Pods */,
+				75C62D66D958896A4D5657A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +190,8 @@
 			children = (
 				C086C6C626DEE34B00B0E2BE /* AViewController.h */,
 				C086C6C526DEE34B00B0E2BE /* AViewController.m */,
+				C0F4143E26E47F23005D697D /* Target_A.h */,
+				C0F4143F26E47F23005D697D /* Target_A.m */,
 			);
 			path = ARA;
 			sourceTree = "<group>";
@@ -157,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C086C6B926DEE08E00B0E2BE /* Build configuration list for PBXNativeTarget "ARA" */;
 			buildPhases = (
+				3F12FAE30ACC7B95C39E06C6 /* [CP] Check Pods Manifest.lock */,
 				C086C68626DEE08800B0E2BE /* Sources */,
 				C086C68726DEE08800B0E2BE /* Frameworks */,
 				C086C68826DEE08800B0E2BE /* Resources */,
+				82D5C1925F6200876373D7E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C086C6BC26DEE08E00B0E2BE /* Build configuration list for PBXNativeTarget "ARATests" */;
 			buildPhases = (
+				4FC4D6E6AAE1346C0F65B8FF /* [CP] Check Pods Manifest.lock */,
 				C086C6A126DEE08E00B0E2BE /* Sources */,
 				C086C6A226DEE08E00B0E2BE /* Frameworks */,
 				C086C6A326DEE08E00B0E2BE /* Resources */,
@@ -192,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C086C6BF26DEE08E00B0E2BE /* Build configuration list for PBXNativeTarget "ARAUITests" */;
 			buildPhases = (
+				53712B95B5C54269BDA13B57 /* [CP] Check Pods Manifest.lock */,
 				C086C6AC26DEE08E00B0E2BE /* Sources */,
 				C086C6AD26DEE08E00B0E2BE /* Frameworks */,
 				C086C6AE26DEE08E00B0E2BE /* Resources */,
+				CF427129A25A68F483D7578E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +325,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F12FAE30ACC7B95C39E06C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC4D6E6AAE1346C0F65B8FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53712B95B5C54269BDA13B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARA-ARAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D5C1925F6200876373D7E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA/Pods-ARA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA/Pods-ARA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARA/Pods-ARA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF427129A25A68F483D7578E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA-ARAUITests/Pods-ARA-ARAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARA-ARAUITests/Pods-ARA-ARAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARA-ARAUITests/Pods-ARA-ARAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C086C68626DEE08800B0E2BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -283,6 +437,7 @@
 				C086C6C726DEE34B00B0E2BE /* AViewController.m in Sources */,
 				C086C68F26DEE08800B0E2BE /* AppDelegate.m in Sources */,
 				C086C6A026DEE08D00B0E2BE /* main.m in Sources */,
+				C0F4144026E47F23005D697D /* Target_A.m in Sources */,
 				C086C69226DEE08800B0E2BE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +607,7 @@
 		};
 		C086C6BA26DEE08E00B0E2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0036DBA506E9A2DBBBF8B2BF /* Pods-ARA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +625,7 @@
 		};
 		C086C6BB26DEE08E00B0E2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A0C3D6C85D5FDA2DD83564 /* Pods-ARA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +643,7 @@
 		};
 		C086C6BD26DEE08E00B0E2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D4BCE577153ECB0AD3900D /* Pods-ARATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +663,7 @@
 		};
 		C086C6BE26DEE08E00B0E2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FB64FA3A7B4B350A760FD8 /* Pods-ARATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +683,7 @@
 		};
 		C086C6C026DEE08E00B0E2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3090BED5BFAFE52937188391 /* Pods-ARA-ARAUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ARAUITests/Info.plist;
@@ -541,6 +701,7 @@
 		};
 		C086C6C126DEE08E00B0E2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA48DBD927D737A00F51E83 /* Pods-ARA-ARAUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ARAUITests/Info.plist;

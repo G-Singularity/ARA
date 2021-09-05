@@ -1,0 +1,6 @@
+framework module ARB_Category {
+  umbrella header "ARB_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+PODS:
+  - ARB_Category (1.0.0):
+    - CTMediator
+  - CTMediator (46)
+  - HandyFrame (1.2.0)
+
+DEPENDENCIES:
+  - ARB_Category
+  - HandyFrame
+
+SPEC REPOS:
+  trunk:
+    - ARB_Category
+    - CTMediator
+    - HandyFrame
+
+SPEC CHECKSUMS:
+  ARB_Category: 1bdf0d16ce3a9e6f353ea5154a57dcfbd5784c0e
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+
+PODFILE CHECKSUM: 99719587e0fa4e56df64bffed7ce79ca89c18f44
+
+COCOAPODS: 1.11.0

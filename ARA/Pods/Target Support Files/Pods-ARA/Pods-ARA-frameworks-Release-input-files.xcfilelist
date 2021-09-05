@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ARA/Pods-ARA-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ARB_Category/ARB_Category.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ARA' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod "HandyFrame"
+  pod "ARB_Category"
+  # Pods for ARA
+
+  target 'ARATests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ARAUITests' do
+    # Pods for testing
+  end
+
+end

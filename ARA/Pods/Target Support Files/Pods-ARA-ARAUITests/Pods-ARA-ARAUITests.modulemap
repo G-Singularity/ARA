@@ -1,0 +1,6 @@
+framework module Pods_ARA_ARAUITests {
+  umbrella header "Pods-ARA-ARAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
