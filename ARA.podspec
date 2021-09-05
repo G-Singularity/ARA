@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ARA"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "Test description of ARA. DQH"
 
   # This description is used to generate tags and improve search results.
